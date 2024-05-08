@@ -1,8 +1,66 @@
 {
   "version": 2,
-  "dgSpecHash": "TLedXK6jWgRbUBwWR9orrGvU84meEpSNocd4wDFKopiCVzcO9R379en5DwWn0VN/lD0KfATIQWy3wMzn1vcYXw==",
+  "dgSpecHash": "fgLAqJia6+GpjKz98Hj4we66c2511ZBxX4u7jHfpYvQQvDksHhWSrAyswhUcthzNjHSCZn2JTAwdACdYfx6IWw==",
   "success": true,
   "projectFilePath": "/Users/tobi/nzmcs/dotnet-hosting model/WebApplication1/WebApplication1.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/tobi/.nuget/packages/awssdk.core/3.7.303/awssdk.core.3.7.303.nupkg.sha512",
+    "/Users/tobi/.nuget/packages/microsoft.azure.activedirectory.graphclient/2.1.1/microsoft.azure.activedirectory.graphclient.2.1.1.nupkg.sha512",
+    "/Users/tobi/.nuget/packages/microsoft.data.edm/5.6.4/microsoft.data.edm.5.6.4.nupkg.sha512",
+    "/Users/tobi/.nuget/packages/microsoft.data.odata/5.6.4/microsoft.data.odata.5.6.4.nupkg.sha512",
+    "/Users/tobi/.nuget/packages/microsoft.data.services.client/5.6.4/microsoft.data.services.client.5.6.4.nupkg.sha512",
+    "/Users/tobi/.nuget/packages/system.spatial/5.6.4/system.spatial.5.6.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Azure.ActiveDirectory.GraphClient 2.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Azure.ActiveDirectory.GraphClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.Edm 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.Edm",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.OData 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.OData",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.Services.Client 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.Services.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Spatial 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Spatial",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
